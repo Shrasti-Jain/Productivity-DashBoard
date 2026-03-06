@@ -1,5 +1,5 @@
 import React from 'react'
-import {createBrowserRouter, RouterProvider} from 'react-router'
+import {createHashRouter, RouterProvider} from 'react-router'
 import Home from '../Pages/Home'
 import ToDoPlanner from '../Pages/ToDoPlanner'
 import Planner from '../Pages/Planner'
@@ -16,7 +16,7 @@ import AuthCheck from '../Pages/AuthCheck'
 import MainCheck from '../Pages/MainCheck'
 import "react-toastify/dist/ReactToastify.css";
 const AppRouter = () => {
-    let router=createBrowserRouter([
+    let router=createHashRouter([
        {
            path:"/",
            element:<AuthCheck/>,
