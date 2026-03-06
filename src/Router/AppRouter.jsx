@@ -22,7 +22,7 @@ const AppRouter = () => {
            element:<AuthCheck/>,
            children:[
              {
-            path:"",
+            index:true,
             element:<Register/>
         },
         {
@@ -36,7 +36,7 @@ const AppRouter = () => {
             element:<MainCheck/>,
             children:[
                 {
-            path:"",
+            index:true,
             element:<Home/>
             },
             {
@@ -60,7 +60,7 @@ const AppRouter = () => {
             element:<Goals/>,
             children:[
                 {
-                    path:"",
+                    index:true,
                     element:<AllTask/>
                 },
                 {
