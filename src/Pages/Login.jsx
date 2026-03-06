@@ -124,7 +124,7 @@ const Login = () => {
                     {/* Mobile Register Link */}
                     <div className="lg:hidden pt-8 mt-8 border-t border-white/10 text-center">
                         <p className="text-slate-400 text-sm mb-4">Don't have an account?</p>
-                        <button onClick={() => navigate("/register")}
+                        <button onClick={() => navigate("/")}
                             className="w-full py-3 px-8 bg-gradient-to-r from-amber-400/90 to-yellow-400/90 
                                 hover:from-amber-400 hover:to-yellow-400 text-slate-900 font-semibold 
                                 rounded-2xl border border-amber-300/50 backdrop-blur-sm shadow-xl 
