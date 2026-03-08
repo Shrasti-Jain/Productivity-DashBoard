@@ -184,20 +184,6 @@ const Register = () => {
                 </div>
             </div>
         </div>
-
-        <ToastContainer
-            position="top-right"
-            autoClose={4000}
-            hideProgressBar={false}
-            newestOnTop
-            closeOnClick
-            rtl={false}
-            pauseOnFocusLoss
-            draggable
-            pauseOnHover
-            theme="dark"
-            toastClassName="bg-slate-900/95 border border-slate-700/50 backdrop-blur-xl shadow-2xl rounded-2xl font-semibold text-white backdrop-filter"
-        />
         </>
     );
 };

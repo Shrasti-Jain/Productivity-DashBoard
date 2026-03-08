@@ -77,12 +77,13 @@ const AppRouter = () => {
         }
     ])
   return <>
-  <ToastContainer
+ 
+  <RouterProvider router={router}/>
+   <ToastContainer
   position="top-right"
   autoClose={3000}
   style={{ zIndex: 9999 }}
 />
-  <RouterProvider router={router}/>
   </>
 }
 
